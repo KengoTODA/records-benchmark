@@ -32,7 +32,6 @@
 package jp.skypencil.java;
 
 import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.CompilerControl;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.State;
 
@@ -1084,7 +1083,7 @@ public class RecordHashcodeBenchmark {
 
     @Benchmark
     public void run254intHardcode(Values values) {
-        values.recordWith254IntDynamic.hashCode();
+        values.recordWith254IntHardcode.hashCode();
     }
 
     @Benchmark
@@ -1094,30 +1093,6 @@ public class RecordHashcodeBenchmark {
 
     @Benchmark
     public void run254BigIntHardcode(Values values) {
-        values.recordWith254BigIntegerHardcode.hashCode();
-    }
-
-    @CompilerControl(CompilerControl.Mode.DONT_INLINE)
-    @Benchmark
-    public void run254BigIntDynamicWithoutInline(Values values) {
-        values.recordWith254BigIntegerDynamic.hashCode();
-    }
-
-    @CompilerControl(CompilerControl.Mode.DONT_INLINE)
-    @Benchmark
-    public void run254BigIntHardcodeWithoutInline(Values values) {
-        values.recordWith254BigIntegerHardcode.hashCode();
-    }
-
-    @CompilerControl(CompilerControl.Mode.EXCLUDE)
-    @Benchmark
-    public void run254BigIntDynamicExclude(Values values) {
-        values.recordWith254BigIntegerDynamic.hashCode();
-    }
-
-    @CompilerControl(CompilerControl.Mode.EXCLUDE)
-    @Benchmark
-    public void run254BigIntHardcodeExclude(Values values) {
         values.recordWith254BigIntegerHardcode.hashCode();
     }
 }

@@ -1,7 +1,5 @@
 package jp.skypencil.java;
 
-import java.util.Objects;
-
 record RecordWith1IntHardcode(int value) {
     @Override
     public boolean equals(Object o) {
