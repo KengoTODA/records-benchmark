@@ -24,15 +24,11 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                                                   Mode  Cnt           Score           Error  Units
-RecordHashcodeBenchmark.run1intDynamic                     thrpt   25  6547078032.946 ± 456359512.619  ops/s
-RecordHashcodeBenchmark.run1intHardcode                    thrpt   25  4276048982.340 ±  68721669.619  ops/s
-RecordHashcodeBenchmark.run254intDynamic                   thrpt   25     1099419.633 ±     17741.063  ops/s
-RecordHashcodeBenchmark.run254intHardcode                  thrpt   25     1072711.597 ±     18971.773  ops/s
-RecordHashcodeBenchmark.run254BigIntDynamic                thrpt   25      817134.904 ±     21710.458  ops/s
-RecordHashcodeBenchmark.run254BigIntDynamicWithoutInline   thrpt   25      759613.044 ±     11972.392  ops/s
-RecordHashcodeBenchmark.run254BigIntDynamicExclude         thrpt   25      752918.595 ±      7413.942  ops/s
-RecordHashcodeBenchmark.run254BigIntHardcode               thrpt   25     2831884.684 ±     31135.930  ops/s
-RecordHashcodeBenchmark.run254BigIntHardcodeWithoutInline  thrpt   25     2786571.890 ±     40666.025  ops/s
-RecordHashcodeBenchmark.run254BigIntHardcodeExclude        thrpt   25     2408280.899 ±     61117.450  ops/s
+Benchmark                                      Mode  Cnt           Score           Error  Units
+RecordHashcodeBenchmark.run1intDynamic        thrpt   25  7004288283.354 ± 296325291.238  ops/s
+RecordHashcodeBenchmark.run1intHardcode       thrpt   25  7292129398.772 ±  15306165.441  ops/s
+RecordHashcodeBenchmark.run254BigIntDynamic   thrpt   25      730667.288 ±     83301.429  ops/s
+RecordHashcodeBenchmark.run254BigIntHardcode  thrpt   25     2837140.423 ±     30602.767  ops/s
+RecordHashcodeBenchmark.run254intDynamic      thrpt   25     1053994.855 ±     26220.822  ops/s
+RecordHashcodeBenchmark.run254intHardcode     thrpt   25    36258423.586 ±     87490.183  ops/s
 ```
