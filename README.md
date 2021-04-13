@@ -24,11 +24,12 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                                      Mode  Cnt           Score           Error  Units
-RecordHashcodeBenchmark.run1intDynamic        thrpt   25  7004288283.354 ± 296325291.238  ops/s
-RecordHashcodeBenchmark.run1intHardcode       thrpt   25  7292129398.772 ±  15306165.441  ops/s
-RecordHashcodeBenchmark.run254BigIntDynamic   thrpt   25      730667.288 ±     83301.429  ops/s
-RecordHashcodeBenchmark.run254BigIntHardcode  thrpt   25     2837140.423 ±     30602.767  ops/s
-RecordHashcodeBenchmark.run254intDynamic      thrpt   25     1053994.855 ±     26220.822  ops/s
-RecordHashcodeBenchmark.run254intHardcode     thrpt   25    36258423.586 ±     87490.183  ops/s
+Benchmark                                               Mode  Cnt           Score           Error  Units
+RecordHashcodeBenchmark.run1intDynamic                 thrpt   25  7004288283.354 ± 296325291.238  ops/s
+RecordHashcodeBenchmark.run1intHardcode                thrpt   25  7292129398.772 ±  15306165.441  ops/s
+RecordHashcodeBenchmark.run254BigIntDynamic            thrpt   25      730667.288 ±     83301.429  ops/s
+RecordHashcodeBenchmark.run254BigIntHardcode           thrpt   25     2837140.423 ±     30602.767  ops/s
+RecordHashcodeBenchmark.run254intDynamic               thrpt   25     1053994.855 ±     26220.822  ops/s
+RecordHashcodeBenchmark.run254intHardcode              thrpt   25    33426301.613 ±   1369534.791  ops/s
+RecordHashcodeBenchmark.run254intHardcodeMethodAccess  thrpt   25    32188961.540 ±   1684152.801  ops/s
 ```

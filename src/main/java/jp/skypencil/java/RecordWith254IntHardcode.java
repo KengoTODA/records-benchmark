@@ -1,7 +1,5 @@
 package jp.skypencil.java;
 
-import java.util.Objects;
-
 record RecordWith254IntHardcode(int f000,
                                 int f001,
                                 int f002,
