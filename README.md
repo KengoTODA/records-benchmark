@@ -33,3 +33,16 @@ RecordHashcodeBenchmark.run254intDynamic               thrpt   25     1053994.85
 RecordHashcodeBenchmark.run254intHardcode              thrpt   25    33426301.613 ±   1369534.791  ops/s
 RecordHashcodeBenchmark.run254intHardcodeMethodAccess  thrpt   25    32188961.540 ±   1684152.801  ops/s
 ```
+
+### Windows 10 (adoptopenjdk 16+36)
+
+```
+Benchmark                                               Mode  Cnt           Score           Error  Units
+RecordHashcodeBenchmark.run1intDynamic                 thrpt   25  1743843753.226 ±  51586692.872  ops/s
+RecordHashcodeBenchmark.run1intHardcode                thrpt   25  1772637842.250 ± 110599755.291  ops/s
+RecordHashcodeBenchmark.run254BigIntDynamic            thrpt   25      178008.001 ±     26359.409  ops/s
+RecordHashcodeBenchmark.run254BigIntHardcode           thrpt   25      689576.898 ±     30282.948  ops/s
+RecordHashcodeBenchmark.run254intDynamic               thrpt   25      272436.073 ±     15712.528  ops/s
+RecordHashcodeBenchmark.run254intHardcode              thrpt   25     4603760.043 ±    283529.753  ops/s
+RecordHashcodeBenchmark.run254intHardcodeMethodAccess  thrpt   25     4142983.273 ±    433618.323  ops/s
+```
