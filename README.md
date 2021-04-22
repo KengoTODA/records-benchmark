@@ -32,6 +32,8 @@ RecordHashcodeBenchmark.run254BigIntHardcode           thrpt   25     2837140.42
 RecordHashcodeBenchmark.run254intDynamic               thrpt   25     1053994.855 ±     26220.822  ops/s
 RecordHashcodeBenchmark.run254intHardcode              thrpt   25    33426301.613 ±   1369534.791  ops/s
 RecordHashcodeBenchmark.run254intHardcodeMethodAccess  thrpt   25    32188961.540 ±   1684152.801  ops/s
+RecordHashcodeBenchmark.run254IntegerDynamic           thrpt   25      269480.982 ±      9213.689  ops/s
+RecordHashcodeBenchmark.run254IntegerHardcode          thrpt   25     1222055.583 ±      4291.668  ops/s
 RecordHashcodeBenchmark.run254StringDynamic            thrpt   25      878632.190 ±      8247.103  ops/s
 RecordHashcodeBenchmark.run254StringHardcode           thrpt   25     4692698.308 ±     64322.670  ops/s
 ```
