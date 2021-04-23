@@ -24,18 +24,24 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                                               Mode  Cnt           Score           Error  Units
-RecordHashcodeBenchmark.run1intDynamic                 thrpt   25  7004288283.354 ± 296325291.238  ops/s
-RecordHashcodeBenchmark.run1intHardcode                thrpt   25  7292129398.772 ±  15306165.441  ops/s
-RecordHashcodeBenchmark.run254BigIntDynamic            thrpt   25      730667.288 ±     83301.429  ops/s
-RecordHashcodeBenchmark.run254BigIntHardcode           thrpt   25     2837140.423 ±     30602.767  ops/s
-RecordHashcodeBenchmark.run254intDynamic               thrpt   25     1053994.855 ±     26220.822  ops/s
-RecordHashcodeBenchmark.run254intHardcode              thrpt   25    33426301.613 ±   1369534.791  ops/s
-RecordHashcodeBenchmark.run254intHardcodeMethodAccess  thrpt   25    32188961.540 ±   1684152.801  ops/s
-RecordHashcodeBenchmark.run254IntegerDynamic           thrpt   25      269480.982 ±      9213.689  ops/s
-RecordHashcodeBenchmark.run254IntegerHardcode          thrpt   25     1222055.583 ±      4291.668  ops/s
-RecordHashcodeBenchmark.run254StringDynamic            thrpt   25      878632.190 ±      8247.103  ops/s
-RecordHashcodeBenchmark.run254StringHardcode           thrpt   25     4692698.308 ±     64322.670  ops/s
+Benchmark                                               Mode  Cnt          Score         Error  Units
+RecordHashcodeBenchmark.run127longDynamic              thrpt   25    1437877.993 ±   67782.878  ops/s
+RecordHashcodeBenchmark.run127longHardcode             thrpt   25    7223368.762 ±   10012.090  ops/s
+RecordHashcodeBenchmark.run1intDynamic                 thrpt   25  495199305.946 ± 1111537.820  ops/s
+RecordHashcodeBenchmark.run1intHardcode                thrpt   25  494756582.694 ±  610230.961  ops/s
+RecordHashcodeBenchmark.run254BigIntDynamic            thrpt   25     242491.087 ±    2063.087  ops/s
+RecordHashcodeBenchmark.run254BigIntHardcode           thrpt   25     734847.501 ±    4699.389  ops/s
+RecordHashcodeBenchmark.run254IntegerDynamic           thrpt   25     283506.667 ±    5653.954  ops/s
+RecordHashcodeBenchmark.run254IntegerHardcode          thrpt   25    1248434.073 ±    2503.341  ops/s
+RecordHashcodeBenchmark.run254StringDynamic            thrpt   25     284173.235 ±    2679.667  ops/s
+RecordHashcodeBenchmark.run254StringHardcode           thrpt   25    1245834.439 ±    9987.994  ops/s
+RecordHashcodeBenchmark.run254charDynamic              thrpt   25     318567.725 ±    1034.152  ops/s
+RecordHashcodeBenchmark.run254charHardcode             thrpt   25    4078077.505 ±    9570.897  ops/s
+RecordHashcodeBenchmark.run254floatDynamic             thrpt   25     301409.729 ±    4035.105  ops/s
+RecordHashcodeBenchmark.run254floatHardcode            thrpt   25    2743754.442 ±   15684.091  ops/s
+RecordHashcodeBenchmark.run254intDynamic               thrpt   25     315060.236 ±    3940.025  ops/s
+RecordHashcodeBenchmark.run254intHardcode              thrpt   25    5388902.330 ±    6374.034  ops/s
+RecordHashcodeBenchmark.run254intHardcodeMethodAccess  thrpt   25    5389934.628 ±    3993.995  ops/s
 ```
 
 ### Windows 10 (adoptopenjdk 16+36)
