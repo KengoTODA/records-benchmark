@@ -62,3 +62,5 @@ RecordHashcodeBenchmark.run254StringHardcode           thrpt   25     1053330.51
 RecordHashcodeBenchmark.run254floatDynamic             thrpt   25      276144.426 ±     24828.927  ops/s
 RecordHashcodeBenchmark.run254floatHardcode            thrpt   25     2438602.292 ±     78774.529  ops/s
 ```
+
+![microbenchmark result](./graph.png)
